@@ -1,0 +1,12 @@
+{
+    "categories": {
+        "0": "location",
+        "1": "internationalization",
+        "2": "productivity"
+    },
+    "description": "This plugin informs the country associated with the given IP address",
+    "image": "//s3.amazonaws.com/appforest_uf/f1621119311457x752881249005470400/depositphotos_1950413-stock-illustration-flags-of-all-countries-in.jpg",
+    "license": "open_source",
+    "name": "ip-world-location",
+    "plugin_instructions": "Inform IP address to obtain the location of the Country - Results:\n\"countryCode\": \"US\",\n\"countryCode3\": \"USA\",\n\"countryName\": \"United States\",\n\"countryEmoji\": \"🇺🇸\""
+}

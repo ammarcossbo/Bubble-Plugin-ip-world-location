@@ -1,0 +1,49 @@
+{
+    "calls": {
+        "AAC": {
+            "get_headers": false,
+            "initialized": true,
+            "method": "get",
+            "name": "API Call",
+            "params": {
+            },
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1621111793149x196546763685363700.plugin_api.AAC",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAC\":{\"caption\":\"API Call\",\"fields\":{\"_p_countryCode\":{\"ret_value\":\"text\",\"caption\":\"countryCode\",\"sample_value\":\"US\",\"path\":[\"countryCode\"]},\"_p_countryCode3\":{\"ret_value\":\"text\",\"caption\":\"countryCode3\",\"sample_value\":\"USA\",\"path\":[\"countryCode3\"]},\"_p_countryName\":{\"ret_value\":\"text\",\"caption\":\"countryName\",\"sample_value\":\"United States\",\"path\":[\"countryName\"]},\"_p_countryEmoji\":{\"ret_value\":\"text\",\"caption\":\"countryEmoji\",\"sample_value\":\"🇺🇸\",\"path\":[\"countryEmoji\"]}}}}",
+            "url": "https://api.ip2country.info/ip?[8.8.8.8]",
+            "url_params": {
+                "AAG": {
+                    "allow_blank": true,
+                    "doc": "Enter IP address ",
+                    "key": "8.8.8.8",
+                    "private": true,
+                    "value": "8.8.8.8"
+                }
+            }
+        },
+        "AAI": {
+            "initialized": true,
+            "method": "get",
+            "name": "API Call",
+            "publish_as": "action",
+            "rank": 1,
+            "ret_value": "api.1621111793149x196546763685363700.plugin_api.AAI",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAI\":{\"caption\":\"API Call\",\"fields\":{\"_p_countryCode\":{\"ret_value\":\"text\",\"caption\":\"countryCode\",\"sample_value\":\"BR\",\"path\":[\"countryCode\"]},\"_p_countryCode3\":{\"ret_value\":\"text\",\"caption\":\"countryCode3\",\"sample_value\":\"BRA\",\"path\":[\"countryCode3\"]},\"_p_countryName\":{\"ret_value\":\"text\",\"caption\":\"countryName\",\"sample_value\":\"Brazil\",\"path\":[\"countryName\"]},\"_p_countryEmoji\":{\"ret_value\":\"text\",\"caption\":\"countryEmoji\",\"sample_value\":\"🇧🇷\",\"path\":[\"countryEmoji\"]}}}}",
+            "url": "https://api.ip2country.info/ip?[8.8.8.8]",
+            "url_params": {
+                "AAJ": {
+                    "allow_blank": false,
+                    "key": "8.8.8.8",
+                    "private": true,
+                    "value": "8.8.8.8"
+                }
+            }
+        }
+    },
+    "human": "Ip to Country",
+    "shared_headers": {
+    }
+}
